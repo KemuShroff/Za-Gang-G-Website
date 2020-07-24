@@ -12,19 +12,18 @@ div.hero {
 
 h1#Meet {
 	
-  font-size: 170px;
+  font-size: 140px;
   font-family: "Futura BdCn BT";
   color: rgb(255, 255, 255);
   font-weight: bold;
   position: absolute;
-  left: 567.477px;
-  top: 328.604px;
-
+  left: 50px;
+  top: 90px;
+  margin: 0px;
 }
 
 div.BlueGuy {
 
-  background-image: url("../Za Gang Website Mockup-assets/Blue Character.png");
   position: absolute;
   left: 873px;
   top: 325px;
