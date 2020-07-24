@@ -12,7 +12,7 @@ div.hero {
 
 h1#Meet {
 	
-  font-size: 140px;
+  font-size: 120px;
   font-family: "Futura BdCn BT";
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -25,31 +25,40 @@ h1#Meet {
 div.BlueGuy {
 
   position: absolute;
-  left: 873px;
-  top: 325px;
-  width: 802px;
-  height: 781px;
+  left: 630px;
+  top: 240px;
+  width: 670px;
+  height: 650px;
+  max-height: 100%;
+  max-width: 100%;
  
 }
 
-div.CyanGuy {
-	
-  background-image: url("../Za Gang Website Mockup-assets/Cyan Charachter.png");
-  position: absolute;
-  left: 1462px;
-  top: 621px;
-  width: 631px;
-  height: 485px;
+img {
+
+	max-height: 100%;
+	max-width: 100%;
 
 }
 
 div.YellowGuy {
 
-  background-image: url("../Za Gang Website Mockup-assets/Yellow Character.png");
   position: absolute;
-  left: 1838px;
-  top: 487px;
-  width: 689px;
-  height: 627px;
+  left: 1380px;
+  top: 375px;
+  width: 550px;
+  height: 500px;
+  max-height: 100%;
+  max-width: 100%;
+
+}
+
+div.CyanGuy {
+	
+  position: absolute;
+  left: 1090px;
+  top: 490px;
+  width: 510px;
+  height: 380px;
 
 }
