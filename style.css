@@ -81,18 +81,18 @@ button.Sign {
 nav {
 
    position: sticky;
-   top: 970px;
-   margin: 0px;
+   display: block;
+   border-bottom: rgb(0,0,0,5);
+   bottom: 10px;
 
 }
 
 ul {
 
-	position: absolute;
+    float: right;
+	position: fixed;
     font-size: 30px;
     font-family: futura;
-    top: 620px;
-    right: 10px;
 
 }
 
