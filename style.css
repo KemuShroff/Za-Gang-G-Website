@@ -1,17 +1,14 @@
 body{
-	padding: 0;
-	margin: 0;
-	height: 100vh;
-	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
 }
 
 div.hero{
   background-color: rgb(12, 227, 12);
-  position: absolute;
   left: 0px;
   top: 0px;
   width: 100%;
-  height: 970px;
+  height: 100vh;
 }
 
 h1#Meet{
@@ -75,32 +72,28 @@ div.hero button.Sign{
 
 nav{
    position: sticky;
-   bottom: 0px;
-   left: 0px;
    height: 190px;
    background-color: white;
-   box-shadow: rgba(0,0,0, .5);
 }
 
 nav div.ZGLG{
 	position: relative;
-	display: block;
+	display: inline-block;
     top: 0px;
     left: 0px;
     margin-left: 65px;
 	width: 450px;
-	padding-top: 40px;
+	padding-top: 40px;	
 }
 
 nav ul{
+	text-align: center;
     float: right;
-	position: fixed;
     font-size: 50px;
     font-family: futura hv bt;
-    top: 20px;
-    right: 50px;
     display: inline-block;
-    margin-right: 30px;
+    padding: 65px;
+    margin: 0px;
 }
 
 nav ul a{
