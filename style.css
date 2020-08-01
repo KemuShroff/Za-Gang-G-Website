@@ -74,6 +74,7 @@ nav{
    position: sticky;
    height: 190px;
    background-color: white;
+   box-shadow: 0px 9px 9px rgba(0,0,0,.5);
 }
 
 nav div.ZGLG{
@@ -100,6 +101,37 @@ nav ul a{
 	text-decoration: none;
 	color: black;
 	margin-right: 30px
+}
+
+div#STB{
+  background-color: rgb(11, 201, 16);
+  width: 90vw;
+  height: 200px;
+  margin: 45px 80px;
+}
+
+div#STB span{
+  color: white;
+  font-size: 135px;
+  font-family: "Futura BdCn BT";
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 33px;
+}
+
+h4{
+  font-size: 150px;
+  font-family: "Futura BdCn BT";
+  color: rgb(12, 227, 12);
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+div#STB span#B{
+	left: 5px;
+	margin: 10px;
 }
 
 button.Sign.A{
