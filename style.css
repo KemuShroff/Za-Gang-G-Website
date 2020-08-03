@@ -13,7 +13,7 @@ div.hero{
 
 h1#Meet{
   font-size: 120px;
-  font-family: "Futura BdCn BT";
+  font-family: "Futura BdCn BT", Arial;
   color: rgb(255, 255, 255);
   font-weight: bold;
   position: absolute;
@@ -55,7 +55,7 @@ div.CyanGuy{
   height: 380px;
 }
 
-div.hero button.Sign{
+button{
    border-radius: 10px;
    background-color: rgb(0, 0, 255);
    position: absolute;
@@ -72,9 +72,11 @@ div.hero button.Sign{
 
 nav{
    position: sticky;
+   top: 0;
    height: 190px;
    background-color: white;
    box-shadow: 0px 9px 9px rgba(0,0,0,.5);
+   z-index: 1;
 }
 
 nav div.ZGLG{
@@ -91,7 +93,7 @@ nav ul{
 	text-align: center;
     float: right;
     font-size: 50px;
-    font-family: futura hv bt;
+    font-family: futura hv bt, Arial;
     display: inline-block;
     padding: 65px;
     margin: 0px;
@@ -113,7 +115,7 @@ div#STB{
 div#STB span{
   color: white;
   font-size: 133px;
-  font-family: "Futura BdCn BT";
+  font-family: "Futura BdCn BT", Arial;
   font-weight: bold;
   position: relative;
   top: 20px;
@@ -123,7 +125,7 @@ div#STB span{
 h4{
   position: absolute;
   font-size: 150px;
-  font-family: "Futura BdCn BT";
+  font-family: "Futura BdCn BT", Arial;
   color: rgb(12, 227, 12);
   font-weight: bold;
   margin: 30px 0px;
@@ -138,18 +140,68 @@ div#STB span#B{
 }
 
 h1{
-  font-size: 100px;
-  font-family: "Futura BdCn BT";
+  font-size: 130px;
+  font-family: "Futura BdCn BT", Arial;
   color: rgb(1, 1, 1);
   font-weight: bold;
-  margin: 40px 0px;
+  margin: 0;
   padding: 0;
   position: absolute;
   top: 1690px;
-  left: 360px;
+  left: 130px;
 }
+
 h1#ZG{
 	bottom: 0;
+}
+
+ul#ML{
+  background-color: rgb(246, 246, 246);
+  position: absolute;
+  left: 60px;
+  top: 1900px;
+  width: 900px;
+  height: 930px;
+}
+
+li{
+    font-family: "Futura Hv BT";
+    font-size: 130px;
+	color: white;
+	display: block;
+	position: relative;
+	width: 830px;
+	height: 200px;
+	background-color: blue;
+	margin: 20px 0px 0px 0px;
+	padding-left: 0px;
+	text-align: center;
+	line-height: 1.4;
+}
+
+li#Doing{
+	line-height: 2.5;
+	font-size: 70px;
+	top: 30px;
+}
+
+li#BG{
+	background: rgba(0,0,0,.1);
+	margin: 0;
+	top: 120px;
+}
+
+li#Fun{
+	line-height: 1.5;
+	font-size: 120px;
+	left: 300px;
+	bottom: 100px;
+}
+
+div#handi{
+   background-image: url(../Grab.png);
+   height: 300px;
+   width: 300px;
 }
 
 button.Sign.A{
