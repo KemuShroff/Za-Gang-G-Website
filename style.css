@@ -198,10 +198,21 @@ li#Fun{
 	bottom: 100px;
 }
 
+li#Running{
+	margin: 0;
+}
+
 div#handi{
+   position: relative;
+   display: block;
    background-image: url(../Grab.png);
-   height: 300px;
-   width: 300px;
+   background-size: contain;
+   height: 250px;
+   width: 250px;
+   margin: 0px;
+   padding: 0px;
+   bottom: 310px;
+   left: 1060px;
 }
 
 button.Sign.A{
