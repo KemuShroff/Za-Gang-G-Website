@@ -75,7 +75,7 @@ nav{
    top: 0;
    height: 190px;
    background-color: white;
-   box-shadow: 0px 9px 9px rgba(0,0,0,.5);
+   box-shadow: 0px 5px 9px rgba(0,0,0,.3);
    z-index: 1;
 }
 
@@ -180,43 +180,57 @@ li{
 }
 
 li#Doing{
+	background-color: #0000ff;
 	line-height: 2.5;
-	font-size: 70px;
+	font-size: 75px;
 	top: 30px;
 }
 
 li#BG{
 	background: rgba(0,0,0,.1);
 	margin: 0;
-	top: 120px;
+	top: 140px;
 }
 
 li#Fun{
+	background-color: #00ff00;
 	line-height: 1.5;
 	font-size: 120px;
 	left: 300px;
 	bottom: 100px;
+    transform: rotate(5deg);
 }
 
 li#Running{
+	background-color: #fff600;
+	position: relative;
+	bottom: 230px;
 	margin: 0;
 }
 
 div#handi{
    position: relative;
    display: block;
-   background-image: url(../Grab.png);
-   background-size: contain;
    height: 250px;
    width: 250px;
    margin: 0px;
    padding: 0px;
-   bottom: 310px;
+   bottom: 265px;
    left: 1060px;
 }
 
-button.Sign.A{
-   position: absolute;
-   bottom: 10px;
-   margin: 10px;
+p{
+	float: right;
+	position: absolute;
+    font-family: "Futura Hv BT";
+    font-size: 100px;
+    top: 1900px;
+    left: 1030px;
+    margin: 0px;
+    padding: 0px;
+}
+
+span#PS{
+	position: relative;
+	left: 100px;
 }
