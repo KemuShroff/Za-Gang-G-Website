@@ -156,7 +156,6 @@ h1#ZG{
 }
 
 ul#ML{
-  float: left;
   background-color: rgb(246, 246, 246);
   position: absolute;
   left: 60px;
@@ -204,8 +203,7 @@ li#Fun{
 
 li#Running{
 	background-color: #fff600;
-	position: relative;
-	padding: 0;
+	text-align: center;
 }
 
 div#handi{
@@ -221,10 +219,10 @@ div#handi{
 }
 
 p{
-	position: absolute;
+	position: relative;
     font-family: "Futura Hv BT";
     font-size: 100px;
-    top: 1900px;
+    top: 0;
     left: 1030px;
     margin: 0px;
     padding: 0px;
