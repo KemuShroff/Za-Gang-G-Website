@@ -152,8 +152,10 @@ h1#ZG{
 ul#ML{
   background-color: rgb(246, 246, 246);
   margin: 0px 0px 0px 90px;
+  padding: 0px 35px;
   width: 900px;
   height: 930px;
+  box-sizing: border-box;
 }
 
 li{
@@ -165,7 +167,7 @@ li{
 	height: 200px;
 	background-color: blue;
 	margin: 20px 0px 0px 0px;
-	padding-left: 0px;
+	padding: 0px 0px 0px 0px;
 	text-align: center;
 	line-height: 1.4;
 }
@@ -175,11 +177,13 @@ li#Doing{
 	background-color: #0000ff;
 	line-height: 2.5;
 	font-size: 75px;
-	top: 30px;
+	top: 55px;
 }
 
 li#BG{
+	position: relative;
 	background: rgba(0,0,0,.1);
+	top: 145px;
 }
 
 li#Fun{
@@ -194,13 +198,16 @@ li#Fun{
 
 li#Running{
 	background-color: #fff600;
+	position: relative;
 }
 
 div#handi{
+   float: left;
    position: relative;
    display: block;
    height: 250px;
    width: 250px;
+   left: 300px;
    bottom: 300px;
 }
 
