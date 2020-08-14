@@ -150,6 +150,7 @@ h1#ZG{
 }
 
 ul#ML{
+  float: left;
   background-color: rgb(246, 246, 246);
   margin: 0px 0px 0px 90px;
   padding: 0px 35px;
@@ -198,7 +199,6 @@ li#Fun{
 
 li#Running{
 	background-color: #fff600;
-	position: relative;
 }
 
 div#handi{
@@ -207,8 +207,8 @@ div#handi{
    display: block;
    height: 250px;
    width: 250px;
-   left: 300px;
-   bottom: 300px;
+   left: 30px;
+   top: 100px;
 }
 
 p{
