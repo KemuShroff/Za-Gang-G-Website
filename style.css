@@ -149,10 +149,15 @@ h1#ZG{
 	bottom: 0;
 }
 
+
+.OST{
+	margin: 0px 10px 0px 30px;
+}
+
 ul#ML{
   float: left;
   background-color: rgb(246, 246, 246);
-  margin: 0px 0px 0px 90px;
+  margin: 0px 90px 0px 90px;
   padding: 0px 35px;
   width: 900px;
   height: 930px;
@@ -192,7 +197,7 @@ li#Fun{
 	background-color: #00ff00;
 	line-height: 1.5;
 	font-size: 120px;
-	left: 300px;
+	left: 230px;
 	bottom: 100px;
     transform: rotate(5deg);
 }
@@ -202,18 +207,19 @@ li#Running{
 }
 
 div#handi{
-   float: left;
    position: relative;
-   display: block;
+   display: inline-block;
    height: 250px;
    width: 250px;
-   left: 30px;
-   top: 100px;
+   left: 0px;
+   top: 430px;
+   margin: 0;
+   padding: 0;
 }
 
 p{
     font-family: "Futura Hv BT";
     font-size: 100px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
