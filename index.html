@@ -4,6 +4,7 @@
 	<meta c\harset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css"> 
+    <script src="Za Gang.js"></script>
 
 	<title>Za Gang</title>
 </head>
@@ -59,35 +60,29 @@
     <div class="BPOZG">
     	
     	<h1 id="ZG">Be Part Of Za Gang</h1>
-        <button class="Sign A">Sign Up</button>
+        <button class="Sign A" onclick="showPopup()">Sign Up</button>
 
     </div>
     
-
-    <blanket>
-        <div class="popup">
-    		<h3>Fill In Your Details</h3>
+    <footer>Made By Karan Shroff Instagram <a href="http://instagram.com/Kemu_Shroff" id="Ins">@Kemu_Shroff</a> </footer>
+        <div class="popup" id="Popup">
+    		<h3 id="popuph">Fill In Your Details</h3>
 	<form>
-    	 <span>Your Name</span>
-             <div class="label">
-    	 <input type="text" placeholder="What Your Parents Gave You"></div>
-             <div class="label">
-    	 <span>Your Hobby</span>
-    	 <input type="text" placeholder="What You Like Doing"></div>
-             <div class="label">
-    	 <span>Your Age</span>
-    	 <input type="text" placeholder="When You Came Into Existence"></div>
-             <div class="label">
-    	 <span>Your Favourite Food</span>
-    	 <input type="text" placeholder="What You Crave For"></div>
-
-         <button>I Want To Join</button>
-    </form>
+    	 <span id="Name">Your Name</span>
+             <div class="Name">
+    	 <input type="text" placeholder="What Your Parents Gave You" id="Name"></div>
+             <div class="Hobby">
+    	 <span id="Hobby">Your Hobby</span>
+    	 <input type="text" placeholder="What You Like Doing" id="Hobby"></div>
+             <div class="Age">
+    	 <span id="Age">Your Age</span>
+    	 <input type="text" placeholder="When You Came Into Existence" id="Age"></div>
+             <div class="Food">
+    	 <span id="Food">Your Favourite Food</span>
+    	 <input type="text" placeholder="What You Crave For" id="Food"></div>
+         <button id="Join">I Want To Join</button>
+    </form>  
     	</div>
-    </blanket>
-
-
-     <footer>Made By Karan Shroff Instagram <a href="http://instagram.com/Kemu_Shroff">@Kemu_Shroff</a> </footer>
 
 </body>
 </html>
